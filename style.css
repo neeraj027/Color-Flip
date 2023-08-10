@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: 900;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.nav{
+    
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    box-shadow: 0px 1px 5px;
+}
+h2>a{
+    width: 20%;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;   
+}
+
+.type{ 
+    position: relative;
+    justify-content: end;
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease;
+}
+li>a:hover{
+    color: #23eddc;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    color: #f5f5f5;
+    background-color: rgb(39, 38, 38);
+    width: auto;
+    padding: 20px;
+    margin: 30px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+.color{
+    color: white;
+}
+
+button{
+    
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius:20px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px;
+    transition: all .3s ease;
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
